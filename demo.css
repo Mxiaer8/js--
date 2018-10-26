@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.slide{
+	position: relative;
+	width: 1000px;
+	height: 500px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+.img ul{
+	position: absolute;
+	left: -1000px;
+	width: 5000px;
+}
+.img li{
+	list-style-type: none;
+	float: left;
+}
+img{
+	width: 1000px;
+	height: 500px;
+}
+#num li{
+	list-style-type: none;
+	background-color: white;
+	border: 1px solid red;
+	border-radius: 100px;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+#num {
+	position: absolute;
+	top: 450px;
+	left: 800px;
+}
+.btn{
+	font-size: 30px;
+	color: gray;
+}
+#left{
+	position: absolute;
+	top: 230px;
+	left: 40px;
+	cursor: pointer;
+}
+#right{
+	position: absolute;
+	top: 230px;
+	right: 40px;
+	cursor: pointer;
+}
